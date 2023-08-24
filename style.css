@@ -1,5 +1,14 @@
 body{
-color: white;
-background-color: blue;
-
+    background-color: black;
+}
+div{
+width: 100px;
+height: 100px;
+margin: 10px;
+padding: 20px;
+background-color: green;
+}
+.bloque2{
+display:none;
+background-color: red;
 }
