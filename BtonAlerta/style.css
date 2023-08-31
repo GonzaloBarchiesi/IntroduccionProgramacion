@@ -1,0 +1,27 @@
+body{
+  display: flex;
+  background-color: lightyellow;
+  align-items: center;
+  justify-content: center;  
+ flex-direction: row;
+ height: 100%;
+ 
+}
+h1>div{
+display: flex;
+align-items: flex-start;
+justify-content: center;
+background-color: green;
+}
+
+
+.button{
+  
+  background-color: azure;
+  width: 100px;
+  height: 100px;
+display: flex;
+
+ 
+}
+
