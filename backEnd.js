@@ -1,11 +1,8 @@
-document.querySelector('form')
-$form.addEventListener('submit', handleSubmit)
+const name = document.getElementById('name')
+const mail = document.getElementById('mail')
+const form = document.getElementById('form')
 
-.addEventListener('submit', e =>    {
+form.addEventListener('submit', (e) => {
+    let messages = []
 e.preventDefault()
-const data = Object.fromEntries(
-new FormData(e.target)
-
-)
- alert(JSON.stringify(data))   
 })
