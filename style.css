@@ -1,19 +1,4 @@
-#registro{
-border: solid 2px black;
-width: 250px;
-}
-#mail{
-display: block;
-margin-top: 100px;
-}
-#nombre{
-display: block;    
-}
-#envioButton{
-display: block;
-margin-top: 50px;
-}
-#alert{
-margin-top: 10px;
-
+div{
+border: solid black thin;    
+width: 300px;
 }
