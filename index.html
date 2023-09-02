@@ -8,25 +8,34 @@
     <head>  
         <title>INDEX</title>
     </head>
+    <script src  = "backEnd.js"></script>   
     <body>
-        <script src  = "backEnd.js"></script>
+      
         <main>
             <h1> MI PAGINA WEB
                 </h1>   
         </main>
-        <div id = "registro">
-            <form id = "form">
+       
+        <form id = "form" >  
                 
-              
+             <div>
                     <label for="myName" name = "name">Send me your name:</label>
-                    <input id="myName" name="name" value="yourName" />
-                    
-                    <input type="submit" value="Send Me!" name = "submit" />
+                    <input id="myName" name="name" type="text" />
+            </div>
+            <br> 
+            <div>
+                 <label for = "mail" name  = "mail">Send me you'r mail</label>
+                 <input id = "mail" name = inputMail type = "text">
+            </div>
+             <br><br>
+            <input type = "reset">
+            <br><br>
+                 <input type="submit" value="Send Me!" name = "submit" />
                     
 
-            </form>
+        </form>
             
-        </div>
+       
     </body>
 
     <footer>    
